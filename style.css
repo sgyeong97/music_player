@@ -61,7 +61,7 @@ body {
 #player-track {
 	position: absolute;
 	top: 0;
-	right: 10px;
+	right: 15px;
 	left: 15px;
 	padding: 10px 35px 10px 53vw;
 	padding-bottom: 30vh;
@@ -168,9 +168,9 @@ body {
 
 #player-content {
 	position: relative;
-	height: 35vh;
-	width: 95vw;
-	margin-left: 2.5vw;
+	height: 30vh;
+	width: 97.5vw;
+	margin-left: 1vw;
 	background-color: #fff;
 	box-shadow: 0 30px 30px #E6E6E6;
 	border-radius: 10px;
@@ -180,8 +180,8 @@ body {
 #album-art {
 	position: absolute;
 	top: -40px;
-	width: 115px;
-	height: 115px;
+	width: 38vw;
+	height: 38vh;
 	margin-left: 40px;
 	transform: rotateZ(0);
 	transition: 0.3s ease all;
@@ -213,10 +213,10 @@ body {
 #album-art img {
 	display: block;
 	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
+	top: -40px;
+	left: -40px;
+	width: 60vw;
+	height: 60vh;
 	opacity: 0;
 	z-index: -1;
 }
@@ -228,7 +228,7 @@ body {
 
 #album-art.active img.active {
 	z-index: 1;
-	animation: rotateAlbumArt 14s linear 0s infinite forwards;
+	animation: rotateAlbumArt 15s linear 0s infinite forwards;
 }
 
 @keyframes rotateAlbumArt {
